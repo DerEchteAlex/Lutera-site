@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import { useState, useContext } from 'react'
-=======
 import { useState, useContext, useEffect } from 'react'
->>>>>>> 21409760a5dde64d4f91bd2d8ad7cbaf6454e900
 import { useNavigate } from 'react-router-dom'
 import { CartContext } from '../context/CartContext'
 import './CheckoutPage.css'
@@ -10,10 +6,7 @@ import './CheckoutPage.css'
 function CheckoutPage() {
   const navigate = useNavigate()
   const { cart, clearCart } = useContext(CartContext)
-<<<<<<< HEAD
-=======
   const [isLoadingLocation, setIsLoadingLocation] = useState(false)
->>>>>>> 21409760a5dde64d4f91bd2d8ad7cbaf6454e900
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -27,13 +20,6 @@ function CheckoutPage() {
 
   const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0)
 
-<<<<<<< HEAD
-  const handleInputChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    })
-=======
   const fetchLocationByPincode = async (pincode) => {
     try {
       const response = await fetch(`https://api.postalpincode.in/pincode/${pincode}`)
@@ -72,17 +58,13 @@ function CheckoutPage() {
       }
       setIsLoadingLocation(false)
     }
->>>>>>> 21409760a5dde64d4f91bd2d8ad7cbaf6454e900
   }
 
   const handleSubmit = async (e) => {
     e.preventDefault()
     
     try {
-<<<<<<< HEAD
       // Here you would typically send the order to your backend
-=======
->>>>>>> 21409760a5dde64d4f91bd2d8ad7cbaf6454e900
       const orderData = {
         items: cart,
         total,
@@ -90,10 +72,7 @@ function CheckoutPage() {
         orderDate: new Date().toISOString()
       }
 
-<<<<<<< HEAD
       // Simulate order processing
-=======
->>>>>>> 21409760a5dde64d4f91bd2d8ad7cbaf6454e900
       await new Promise(resolve => setTimeout(resolve, 1000))
       
       clearCart()
@@ -162,8 +141,6 @@ function CheckoutPage() {
               <div className="form-row">
                 <input
                   type="text"
-<<<<<<< HEAD
-=======
                   name="zipCode"
                   placeholder="PIN Code"
                   value={formData.zipCode}
@@ -174,16 +151,12 @@ function CheckoutPage() {
                 />
                 <input
                   type="text"
->>>>>>> 21409760a5dde64d4f91bd2d8ad7cbaf6454e900
                   name="city"
                   placeholder="City"
                   value={formData.city}
                   onChange={handleInputChange}
                   required
-<<<<<<< HEAD
-=======
                   readOnly
->>>>>>> 21409760a5dde64d4f91bd2d8ad7cbaf6454e900
                 />
                 <input
                   type="text"
@@ -192,25 +165,12 @@ function CheckoutPage() {
                   value={formData.state}
                   onChange={handleInputChange}
                   required
-<<<<<<< HEAD
-                />
-                <input
-                  type="text"
-                  name="zipCode"
-                  placeholder="ZIP Code"
-                  value={formData.zipCode}
-                  onChange={handleInputChange}
-                  required
-                />
-              </div>
-=======
                   readOnly
                 />
               </div>
               {isLoadingLocation && (
                 <div className="loading-location">Fetching location details...</div>
               )}
->>>>>>> 21409760a5dde64d4f91bd2d8ad7cbaf6454e900
             </div>
             <button type="submit" className="place-order-btn">
               Place Order (₹{total.toFixed(2)})
