@@ -138,19 +138,19 @@ const sliderSettings = {
       <section className="features-section">
         <div className="features-list">
           <div className="feature-item">
-            <img src="/src/assets/images/WindWheelAster.png" alt="Wind Wheel Aster" className="feature-icon" />
+            <img src="/images/WindWheelAster.png" alt="Wind Wheel Aster" className="feature-icon" />
             <div className="feature-label">
               FOR REAL-WORLD<br />TRAVELERS
             </div>
           </div>
           <div className="feature-item">
-            <img src="/src/assets/images/AcquaintFate.png" alt="Acquaint Fate" className="feature-icon" />
+            <img src="/images/AcquaintFate.png" alt="Acquaint Fate" className="feature-icon" />
             <div className="feature-label">
               DRESS LIKE YOU JUST<br />PULLED A 5-STAR
             </div>
           </div>
           <div className="feature-item">
-            <img src="/src/assets/images/Noqiqi.png" alt="No qiqi" className="feature-icon" />
+            <img src="/images/Noqiqi.png" alt="No qiqi" className="feature-icon" />
             <div className="feature-label">
               GUARANTEED STYLE<br />NO 50/50s HERE
             </div>

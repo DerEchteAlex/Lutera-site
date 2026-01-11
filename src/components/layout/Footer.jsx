@@ -12,15 +12,15 @@ function Footer() {
         <div className="footer-contacts">
           <div className="footer-contact">
             <div className="footer-contact-label">EMAIL</div>
-            <div className="footer-contact-value"><img className="footer-logo" src="/src/assets/images/gmail_logo.png" alt="Mail"></img>goli ki Gmale</div>
+            <div className="footer-contact-value"><img className="footer-logo" src="/images/gmail_logo.png" alt="Mail"></img>goli ki Gmale</div>
           </div>
           <div className="footer-contact">
             <div className="footer-contact-label">SOCIAL</div>
             <div className="footer-contact-value">
-              <a href="https://www.instagram.com/golilutera/" target="_blank" rel="noopener noreferrer"><img className="footer-logo" src="/src/assets/images/insta_logo.png" alt="Instagram"></img>Instagram</a>
+              <a href="https://www.instagram.com/golilutera/" target="_blank" rel="noopener noreferrer"><img className="footer-logo" src="/images/insta_logo.png" alt="Instagram"></img>Instagram</a>
             </div>
             <div className="footer-contact-value">
-              <a href="https://discord.gg/sPjfAruJWp" target="_blank" rel="noopener noreferrer"><img className="footer-logo" src="/src/assets/images/discord_logo.png" alt="Discord"></img>Join Our Discord</a>
+              <a href="https://discord.gg/sPjfAruJWp" target="_blank" rel="noopener noreferrer"><img className="footer-logo" src="/images/discord_logo.png" alt="Discord"></img>Join Our Discord</a>
             </div>
           </div>
         </div>
