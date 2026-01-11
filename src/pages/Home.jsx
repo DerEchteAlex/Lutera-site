@@ -6,8 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Home.css";
 
-function NextArrow(props) {
-  const { className, style, onClick } = props;
+function NextArrow({ className, style, onClick }) {
   return (
     <div
       className={className}
@@ -20,25 +19,19 @@ function NextArrow(props) {
         right: "-60px",
         top: "50%",
         transform: "translateY(-50%)",
-        zIndex: 3,
-        background: "#fff",
+        zIndex: 5,
+        background: "#111",
         borderRadius: "8px",
         width: "54px",
         height: "54px",
         cursor: "pointer",
-        fontSize: "2.2rem",
-        color: "#00a68a",
       }}
       onClick={onClick}
-      aria-label="Next"
-    >
-      ▶
-    </div>
+    />
   );
 }
 
-function PrevArrow(props) {
-  const { className, style, onClick } = props;
+function PrevArrow({ className, style, onClick }) {
   return (
     <div
       className={className}
@@ -51,22 +44,18 @@ function PrevArrow(props) {
         left: "-60px",
         top: "50%",
         transform: "translateY(-50%)",
-        zIndex: 3,
-        background: "#fff",
+        zIndex: 5,
+        background: "#111",
         borderRadius: "8px",
         width: "54px",
         height: "54px",
         cursor: "pointer",
-        fontSize: "2.2rem",
-        color: "#00a68a",
       }}
       onClick={onClick}
-      aria-label="Previous"
-    >
-      ◀
-    </div>
+    />
   );
 }
+
 function Home() {
   const tees = allProducts.filter(p => p.type === "tee").slice(0, 6);
   const posters = allProducts.filter(p => p.type === "poster").slice(0, 3);
