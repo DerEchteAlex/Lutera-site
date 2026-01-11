@@ -1,14 +1,12 @@
 const allProducts = [
   {
     id: 1,
-    name: "Neuvillette “Unstoppable Dragon” Oversized Cotton T-Shirt - LUTERA Edition",
+    name: "Neuvillette Unstoppable Dragon Oversized Cotton T-Shirt – LUTERA Edition",
     image: "/images/NeuvilletteB.png",
-      images: [
-    "/images/NeuvilletteB.png",
-    "/images/NeuvilletteW.png",
-  ],
+    images: ["/images/NeuvilletteB.png", "/images/NeuvilletteW.png"],
     price: 599,
-    description: "Channel the authority and elegance of Fontaine's Chief Justice with this bold Neuvillette oversized t-shirt. Made from 100% premium cotton, it features a powerful full-back print of Neuvillette with the phrase “According to the judgment of the Oratrice Mecanique d'Analyse Cardinale”. The striking “Unstoppable Dragon” graphic adds a dynamic flair,while the clean LUTERA logo on the front keeps it subtle and stylish.",
+    description:
+      "Channel the authority and elegance of Fontaine's Chief Justice with this bold Neuvillette oversized t-shirt. Made from 100% premium cotton, it features a powerful full-back print of Neuvillette with the phrase “According to the judgment of the Oratrice Mecanique d'Analyse Cardinale”. The striking “Unstoppable Dragon” graphic adds a dynamic flair,while the clean LUTERA logo on the front keeps it subtle and stylish.",
     details: [
       " 100% soft & breathable cotton",
       "Oversized unisex fit for all-day comfort",
@@ -20,14 +18,12 @@ const allProducts = [
   },
   {
     id: 2,
-    name: "Oversized Cotton Kazuha Printed T-Shirt – LUTERA Edition",
+    name: "Kaedehara Kazuha Wanderer Oversized Cotton T-Shirt – LUTERA Edition",
     image: "/images/KazuhaB.png",
-      images: [
-    "/images/KazuhaB.png",
-    "/images/KazuhaW.png",
-  ],
+    images: ["/images/KazuhaB.png", "/images/KazuhaW.png"],
     price: 599,
-    description: "Show off your samurai spirit with this bold oversized Kaedehara Kazuha t-shirt. Crafted from 100% soft cotton, it features a vivid full-color print of Kazuha on the back, with his name in English, Japanese, and Kanji – perfect for fans of Genshin Impact’s poetic wanderer. The front sports a clean LUTERA logo, making it a great blend of anime flair and streetwear fashion.",
+    description:
+      "Show off your samurai spirit with this bold oversized Kaedehara Kazuha t-shirt. Crafted from 100% soft cotton, it features a vivid full-color print of Kazuha on the back, with his name in English, Japanese, and Kanji – perfect for fans of Genshin Impact’s poetic wanderer. The front sports a clean LUTERA logo, making it a great blend of anime flair and streetwear fashion.",
     details: [
       " 100% soft & breathable cotton",
       "Oversized unisex fit for all-day comfort",
@@ -39,14 +35,12 @@ const allProducts = [
   },
   {
     id: 3,
-    name: "“Hey Chill - Meowjutsu!” Oversized Cotton T-Shirt – LUTERA Edition",
+    name: "Hey Chill Meowjutsu Oversized Cotton T-Shirt – LUTERA Edition",
     image: "/images/ChillVibeW.png",
-          images: [
-    "/images/ChillvibeW.png",
-    "/images/ChillvibeB.png",
-  ],
+    images: ["/images/ChillvibeW.png", "/images/ChillvibeB.png"],
     price: 599,
-        description: "Unleash your chill mode with this quirky and cool Meowjutsu oversized t-shirt! Crafted from premium 100% cotton, this black tee features a bold “CHILL CHILL” graphic with a street-style cat rocking shades and attitude. The playful “Hey Chill – Meowjutsu!” design on the back pairs perfectly with the minimalist LUTERA logo on the front for a look that’s both relaxed and stylish.",
+    description:
+      "Unleash your chill mode with this quirky and cool Meowjutsu oversized t-shirt! Crafted from premium 100% cotton, this black tee features a bold “CHILL CHILL” graphic with a street-style cat rocking shades and attitude. The playful “Hey Chill – Meowjutsu!” design on the back pairs perfectly with the minimalist LUTERA logo on the front for a look that’s both relaxed and stylish.",
     details: [
       " 100% soft & breathable cotton",
       "Unisex oversized fit for maximum comfort",
@@ -61,12 +55,10 @@ const allProducts = [
     id: 4,
     name: "Mavuika Tokyo Racer Oversized Cotton T-Shirt – LUTERA Edition",
     image: "/images/MavuikaW.png",
-          images: [
-    "/images/MavuikaW.png",
-    "/images/MavuikaB.png",
-  ],
+    images: ["/images/MavuikaW.png", "/images/MavuikaB.png"],
     price: 599,
-        description: "Rev up your streetwear game with this bold Mavuika Tokyo Racer oversized t-shirt. Made from soft and breathable 100% cotton, this black tee features a stunning anime-style print of Mavuika with a futuristic sports car against a Tokyo skyline backdrop. The “TOKYO High Performance Sports” graphic adds an edgy, racing-inspired vibe, while the LUTERA logo on the front keeps it clean and premium.",
+    description:
+      "Rev up your streetwear game with this bold Mavuika Tokyo Racer oversized t-shirt. Made from soft and breathable 100% cotton, this black tee features a stunning anime-style print of Mavuika with a futuristic sports car against a Tokyo skyline backdrop. The “TOKYO High Performance Sports” graphic adds an edgy, racing-inspired vibe, while the LUTERA logo on the front keeps it clean and premium.",
     details: [
       " 100% soft & breathable cotton",
       "Unisex oversized fit for maximum comfort",
@@ -79,14 +71,12 @@ const allProducts = [
   },
   {
     id: 5,
-    name: "Bennett “Stay Wild” Oversized Cotton T-Shirt – LUTERA Edition",
+    name: "Bennett Stay Wild Oversized Cotton T-Shirt – LUTERA Edition",
     image: "/images/BenneteB.png",
-          images: [
-    "/images/BenneteB.png",
-    "/images/BenneteW.png",
-  ],
+    images: ["/images/BenneteB.png", "/images/BenneteW.png"],
     price: 599,
-        description: "Fuel your sense of adventure with this bold and comfy Bennett oversized t-shirt! Featuring the fiery Genshin Impact adventurer in a dynamic print, this tee captures the spirit of courage with the quote: “Adventure is the child of courage.” Crafted from 100% breathable cotton and finished with a minimalist LUTERA logo on the front, it's perfect for fans who live for thrill and style.",
+    description:
+      "Fuel your sense of adventure with this bold and comfy Bennett oversized t-shirt! Featuring the fiery Genshin Impact adventurer in a dynamic print, this tee captures the spirit of courage with the quote: “Adventure is the child of courage.” Crafted from 100% breathable cotton and finished with a minimalist LUTERA logo on the front, it's perfect for fans who live for thrill and style.",
     details: [
       " 100% soft & breathable cotton",
       "Unisex oversized fit for maximum comfort",
@@ -99,14 +89,12 @@ const allProducts = [
   },
   {
     id: 6,
-    name: "Hu Tao Split-Frame Oversized Cotton T-Shirt – LUTERA Edition",
+    name: "Hu Tao Split Frame Oversized Cotton T-Shirt – LUTERA Edition",
     image: "/images/HutaoW.png",
-          images: [
-    "/images/HutaoW.png",
-    "/images/HutaoB.png",
-  ],
+    images: ["/images/HutaoW.png", "/images/HutaoB.png"],
     price: 599,
-        description: "Bring a playful spirit to your wardrobe with this stunning Hu Tao oversized t-shirt. Featuring a unique split-frame design of the 77th Director of the Wangsheng Funeral Parlor, this tee blends anime charm with urban style. Made from soft, breathable 100% cotton and finished with the iconic LUTERA logo on the front, it’s perfect for Genshin Impact fans who love to stand out.",
+    description:
+      "Bring a playful spirit to your wardrobe with this stunning Hu Tao oversized t-shirt. Featuring a unique split-frame design of the 77th Director of the Wangsheng Funeral Parlor, this tee blends anime charm with urban style. Made from soft, breathable 100% cotton and finished with the iconic LUTERA logo on the front, it’s perfect for Genshin Impact fans who love to stand out.",
     details: [
       " 100% soft & breathable cotton",
       "Unisex oversized fit for maximum comfort",
@@ -117,16 +105,14 @@ const allProducts = [
     category: "Genshin",
     type: "tee",
   },
-    {
+  {
     id: 7,
-    name: "“Manga Is My Life” Oversized Cotton T-Shirt – LUTERA Edition",
+    name: "Manga Is My Life Oversized Cotton T-Shirt – LUTERA Edition",
     image: "/images/AnimeW.png",
-          images: [
-    "/images/AnimeW.png",
-    "/images/HutaoB.png",
-  ],
+    images: ["/images/AnimeW.png", "/images/HutaoB.png"],
     price: 599,
-        description: "For those who eat, sleep, and breathe manga – this one’s for you. The “Manga Is My Life” oversized t-shirt features an edgy black-and-white manga eye panel design on the back, combined with abstract ink splash details for a true otaku vibe. Made from ultra-soft 100% cotton, this white tee pairs comfort with bold visual storytelling. The front features the minimalist LUTERA logo for a clean finish.",
+    description:
+      "For those who eat, sleep, and breathe manga – this one’s for you. The “Manga Is My Life” oversized t-shirt features an edgy black-and-white manga eye panel design on the back, combined with abstract ink splash details for a true otaku vibe. Made from ultra-soft 100% cotton, this white tee pairs comfort with bold visual storytelling. The front features the minimalist LUTERA logo for a clean finish.",
     details: [
       " 100% soft & breathable cotton",
       "Unisex oversized fit for maximum comfort",
@@ -139,7 +125,7 @@ const allProducts = [
   },
   {
     id: 101,
-    name: "Raiden Sexy Poster",
+    name: "Raiden Shogun Character Art Poster",
     image: "/images/NeuviTshirt.png",
     price: 599,
     category: "Genshin",
@@ -147,15 +133,15 @@ const allProducts = [
   },
   {
     id: 102,
-    name: "The 106 Assets",
+    name: "Anime Aesthetic Art Poster – LUTERA",
     image: "/images/NeuviTshirt.png",
     price: 599,
     category: "Anime",
     type: "poster",
   },
-    {
+  {
     id: 103,
-    name: "Goli Lutera YTmods Nude",
+    name: "Classic Anime Art Poster – LUTERA",
     image: "/images/NeuviTshirt.png",
     price: 599,
     category: "Classic",
