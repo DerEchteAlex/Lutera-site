@@ -139,7 +139,7 @@ const allProducts = [
   },
   {
     id: 101,
-    name: "Raiden Sexy Poster",
+    name: "Poster",
     image: "/src/assets/images/NeuviTshirt.png",
     price: 599,
     category: "Genshin",
@@ -147,7 +147,7 @@ const allProducts = [
   },
   {
     id: 102,
-    name: "The 106 Assets",
+    name: "Poster 2",
     image: "/src/assets/images/NeuviTshirt.png",
     price: 599,
     category: "Anime",
@@ -155,7 +155,7 @@ const allProducts = [
   },
     {
     id: 103,
-    name: "Goli Lutera YTmods Nude",
+    name: "Poster 3",
     image: "/src/assets/images/NeuviTshirt.png",
     price: 599,
     category: "Classic",
