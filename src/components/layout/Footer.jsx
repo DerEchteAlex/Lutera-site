@@ -12,7 +12,7 @@ function Footer() {
         <div className="footer-contacts">
           <div className="footer-contact">
             <div className="footer-contact-label">EMAIL</div>
-            <div className="footer-contact-value"><img className="footer-logo" src="/src/assets/images/gmail_logo.png" alt="Mail"></img>goli ki Gmale</div>
+            <div className="footer-contact-value"><img className="footer-logo" src="/src/assets/images/gmail_logo.png" alt="Mail"></img>Mail</div>
           </div>
           <div className="footer-contact">
             <div className="footer-contact-label">SOCIAL</div>

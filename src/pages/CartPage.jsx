@@ -13,10 +13,10 @@ function CartPage() {
   if (cart.length === 0) {
     return (
       <div className="empty-cart">
-        <h2>Your cart is empty</h2>
-        <p>Looks like you haven't added any items to your cart yet.</p>
+        <h2>YOUR CART IS EMPTY</h2>
+        <p>Looks like you haven't added anything yet.<br />Go find your vibe.</p>
         <Link to="/shop" className="continue-shopping">
-          Continue Shopping
+          EXPLORE THE SHOP
         </Link>
       </div>
     )
@@ -24,14 +24,14 @@ function CartPage() {
 
   return (
     <div className="cart-page">
-      <h1>Shopping Cart</h1>
-      
+      <h1>YOUR CART</h1>
+
       <div className="cart-container">
         <div className="cart-items">
           {cart.map((item) => (
             <div key={`${item.id}-${item.size}`} className="cart-item">
               <img src={item.image} alt={item.name} />
-              
+
               <div className="item-details">
                 <h3>{item.name}</h3>
                 <p className="size">Size: {item.size}</p>
@@ -41,50 +41,30 @@ function CartPage() {
                     <span
                       style={{
                         display: "inline-block",
-                        width: "16px",
-                        height: "16px",
+                        width: "14px",
+                        height: "14px",
                         borderRadius: "4px",
-                        background:
-                          item.color === "white"
-                            ? "#fff"
-                            : item.color === "black"
-                            ? "#222"
-                            : item.color,
-                        border: "1px solid #ccc",
+                        background: item.color === "white" ? "#fff" : item.color === "black" ? "#222" : item.color,
+                        border: "1px solid #555",
                         verticalAlign: "middle",
                         marginLeft: "6px",
                         marginRight: "4px",
-                        boxShadow:
-                          item.color === "white"
-                            ? "0 0 0 1px #aaa"
-                            : "none",
                       }}
-                    ></span>
+                    />
                     {item.color.charAt(0).toUpperCase() + item.color.slice(1)}
                   </p>
                 )}
                 <p className="price">₹{item.price}</p>
                 <div className="quantity-controls">
-                  <button 
-                    onClick={() => updateQuantity(item, Math.max(0, item.quantity - 1))}
-                  >
-                    -
-                  </button>
+                  <button onClick={() => updateQuantity(item, Math.max(0, item.quantity - 1))}>−</button>
                   <span>{item.quantity}</span>
-                  <button 
-                    onClick={() => updateQuantity(item, item.quantity + 1)}
-                  >
-                    +
-                  </button>
+                  <button onClick={() => updateQuantity(item, item.quantity + 1)}>+</button>
                 </div>
               </div>
 
               <div className="item-total">
                 <p>₹{(item.price * item.quantity).toFixed(2)}</p>
-                <button 
-                  className="remove-btn"
-                  onClick={() => removeFromCart(item)}
-                >
+                <button className="remove-btn" onClick={() => removeFromCart(item)}>
                   Remove
                 </button>
               </div>
@@ -93,7 +73,7 @@ function CartPage() {
         </div>
 
         <div className="cart-summary">
-          <h2>Order Summary</h2>
+          <h2>ORDER SUMMARY</h2>
           <div className="summary-details">
             <div className="summary-row">
               <span>Subtotal</span>
@@ -109,7 +89,7 @@ function CartPage() {
             </div>
           </div>
           <Link to="/checkout" className="checkout-btn">
-            Proceed to Checkout
+            PROCEED TO CHECKOUT
           </Link>
         </div>
       </div>
